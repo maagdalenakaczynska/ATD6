@@ -27,5 +27,5 @@ fetched1 = myBucket.get(newPerson.key)
 print("Pobrano zaktualizowane, key: " + fetched1.key + " | data = " + str(fetched1.data))
 
 myBucket.delete(fetched1.key)
-print("Proba pobrania usunieteg: " + fetched1.key + " | data = " + str(myBucket.get(fetched1).data))
+print("Proba pobrania usunietego: " + fetched1.key + " | data = " + str(myBucket.get(fetched1).data))
 
